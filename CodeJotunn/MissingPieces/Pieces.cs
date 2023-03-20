@@ -1,4 +1,6 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Linq;
+using System.Reflection;
 using BepInEx;
 using HarmonyLib;
 using Jotunn.Configs;
@@ -16,15 +18,15 @@ namespace JotunnMissingPieces
     {
         public const string PluginGUID = "com.Bento.MissingPieces";
         public const string PluginName = "MissingPieces";
-        public const string PluginVersion = "2.0.0";
+        public const string PluginVersion = "2.0.1";
         
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
         
-        private void Awake()
+        public void Awake()
         {
             //load the mod
-            missingPieces();
-            
+            AddMissingPieces();
+
             // load embedded localization
             string englishJson = AssetUtils.LoadTextFromResources("Localization.English.json", Assembly.GetExecutingAssembly());
             Localization.AddJsonFile("English", englishJson);
@@ -33,10 +35,9 @@ namespace JotunnMissingPieces
             Jotunn.Logger.LogInfo("Missing Pieces landed!");
         }
         
-        private void missingPieces()
+        private void AddMissingPieces()
         {
             AssetBundle bundle = AssetUtils.LoadAssetBundleFromResources("missing_pieces", Assembly.GetExecutingAssembly());
-            
             
             GameObject stonewall1X1Triangular = bundle.LoadAsset<GameObject>("stone_wall_1x1_triangular");
             PieceConfig stonewall1x1triangular = new PieceConfig();
@@ -265,7 +266,7 @@ namespace JotunnMissingPieces
             new RequirementConfig() { Item = "Tar", Amount = 1, Recover = true }
             };
             PieceManager.Instance.AddPiece(new CustomPiece(leftDarkwoodRoof45Triangular,true, leftdarkwoodroof45triangular));
-            ``
+            
             GameObject MPwoodendrawer = bundle.LoadAsset<GameObject>("piece_chest_wooden_drawer");
             PieceConfig mpwoodendrawer = new PieceConfig();
             mpwoodendrawer.Name = "$piece_mpwoodendrawer";
@@ -280,7 +281,7 @@ namespace JotunnMissingPieces
                 new RequirementConfig() { Item = "Iron", Amount = 2, Recover = true },
                 new RequirementConfig() { Item = "Coal", Amount = 1, Recover = true }
             };
-            PieceManager.Instance.AddPiece(new CustomPiece(MPwoodendrawer,true, mpwoodendrawer));
+            PieceManager.Instance.AddPiece(new CustomPiece(MPwoodendrawer, true, mpwoodendrawer));
         }
     }
 }
