@@ -2,35 +2,45 @@
 
 public class CustomInteract : MonoBehaviour, Hoverable, Interactable
 {
-    public Container container;
-    public Sign sign;
+    public string Name = "";
+    public string DefaultInteract = "";
+    public string AlternateInteract = "";
+    public Container Container;
+    public Sign Sign;
 
     public void Awake()
     {
-        container = GetComponent<Container>();
-        sign = GetComponent<Sign>();
+        if (Container == null)
+        {
+            Container = GetComponent<Container>();
+        }
+
+        if (Sign == null)
+        {
+            Sign = GetComponent<Sign>();
+        }
     }
 
     public bool Interact(Humanoid user, bool hold, bool alt)
     {
         if (alt)
         {
-            return sign.Interact(user, hold, alt);
+            return Sign.Interact(user, hold, alt);
         }
         else
         {
-            return container.Interact(user, hold, alt);
+            return Container.Interact(user, hold, alt);
         }
     }
 
     public string GetHoverText()
     {
-        return Localization.instance.Localize("$piece_mpwoodendrawer\n[<color=yellow><b>$KEY_Use</b></color>] $piece_drawer_open\n[<color=yellow><b>Shift $KEY_Use</b></color>] $piece_drawer_edit");
+        return Localization.instance.Localize($"{Name}\n[<color=yellow><b>$KEY_Use</b></color>] {DefaultInteract}\n[<color=yellow><b>Shift $KEY_Use</b></color>] {AlternateInteract}");
     }
 
     public string GetHoverName()
     {
-        return Localization.instance.Localize("$piece_mpwoodendrawer");
+        return Localization.instance.Localize(Name);
     }
 
     public bool UseItem(Humanoid user, ItemDrop.ItemData item)

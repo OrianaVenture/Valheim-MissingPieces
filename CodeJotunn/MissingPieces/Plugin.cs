@@ -1,27 +1,24 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using BepInEx;
-using HarmonyLib;
 using Jotunn.Configs;
 using Jotunn.Entities;
 using Jotunn.Managers;
 using Jotunn.Utils;
 using UnityEngine;
 
-namespace JotunnMissingPieces
+namespace MissingPieces
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Major)]
-    internal class JotunnMissingPieces : BaseUnityPlugin
+    internal class MissingPiecesPlugin : BaseUnityPlugin
     {
         public const string PluginGUID = "com.Bento.MissingPieces";
         public const string PluginName = "MissingPieces";
-        public const string PluginVersion = "2.0.1";
-        
+        public const string PluginVersion = "2.0.2";
+
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
-        
+
         public void Awake()
         {
             //load the mod
@@ -38,7 +35,7 @@ namespace JotunnMissingPieces
         private void AddMissingPieces()
         {
             AssetBundle bundle = AssetUtils.LoadAssetBundleFromResources("missing_pieces", Assembly.GetExecutingAssembly());
-            
+
             GameObject stonewall1X1Triangular = bundle.LoadAsset<GameObject>("stone_wall_1x1_triangular");
             PieceConfig stonewall1x1triangular = new PieceConfig();
             stonewall1x1triangular.Name = "$piece_stonewall1x1triangular";
@@ -266,7 +263,7 @@ namespace JotunnMissingPieces
             new RequirementConfig() { Item = "Tar", Amount = 1, Recover = true }
             };
             PieceManager.Instance.AddPiece(new CustomPiece(leftDarkwoodRoof45Triangular,true, leftdarkwoodroof45triangular));
-            
+
             GameObject MPwoodendrawer = bundle.LoadAsset<GameObject>("piece_chest_wooden_drawer");
             PieceConfig mpwoodendrawer = new PieceConfig();
             mpwoodendrawer.Name = "$piece_mpwoodendrawer";
