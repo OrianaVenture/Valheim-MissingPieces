@@ -15,7 +15,7 @@ namespace MissingPieces
     {
         public const string PluginGUID = "com.Bento.MissingPieces";
         public const string PluginName = "MissingPieces";
-        public const string PluginVersion = "2.0.2";
+        public const string PluginVersion = "2.0.3";
 
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
 
@@ -31,7 +31,7 @@ namespace MissingPieces
             //tell that the mod injection worked
             Jotunn.Logger.LogInfo("Missing Pieces landed!");
         }
-        
+
         private void AddMissingPieces()
         {
             AssetBundle bundle = AssetUtils.LoadAssetBundleFromResources("missing_pieces", Assembly.GetExecutingAssembly());
@@ -233,7 +233,7 @@ namespace MissingPieces
                 new RequirementConfig() { Item = "Tar", Amount = 1, Recover = true }
             };
             PieceManager.Instance.AddPiece(new CustomPiece(leftDarkwoodRoof26Triangular,true, leftdarkwoodroof26triangular));
-            
+
             GameObject rightDarkwoodRoof45Triangular = bundle.LoadAsset<GameObject>("roof_darkwood_45_right");
             PieceConfig rightdarkwoodroof45triangular = new PieceConfig();
             rightdarkwoodroof45triangular.Name = "$piece_rightdarkwoodroof45triangular";

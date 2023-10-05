@@ -67,6 +67,10 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ## Changelog
 
+### 2.0.3
+
+* Update for game patch 0.217.22, bepinex version 5.4.22.0
+
 ### 2.0.2
 
 * Restored the sign drawer, fixed compatibility issue with Jotunn mocking system (version 2.14.4)
