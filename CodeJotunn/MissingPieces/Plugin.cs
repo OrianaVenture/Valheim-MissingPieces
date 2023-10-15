@@ -22,7 +22,8 @@ namespace MissingPieces
         public void Awake()
         {
             //load the mod
-            AddMissingPieces();
+            CreateConfigEntries();
+            PrefabManager.OnVanillaPrefabsAvailable += AddMissingPieces;
 
             // load embedded localization
             string englishJson = AssetUtils.LoadTextFromResources("Localization.English.json", Assembly.GetExecutingAssembly());
@@ -30,6 +31,13 @@ namespace MissingPieces
 
             //tell that the mod injection worked
             Jotunn.Logger.LogInfo("Missing Pieces landed!");
+        }
+        
+        private void CreateConfigEntries()
+        {
+            Config.SaveOnConfigSet = true;
+
+            var missingPieces = new MissingPieces(Config);
         }
 
         private void AddMissingPieces()
@@ -265,6 +273,8 @@ namespace MissingPieces
             PieceManager.Instance.AddPiece(new CustomPiece(leftDarkwoodRoof45Triangular,true, leftdarkwoodroof45triangular));
 
             GameObject MPwoodendrawer = bundle.LoadAsset<GameObject>("piece_chest_wooden_drawer");
+            GameObject WoodOpenEffect = PrefabManager.Instance.GetPrefab("sfx_chest_open");
+            GameObject WoodCloseEffect = PrefabManager.Instance.GetPrefab("sfx_chest_close");
             PieceConfig mpwoodendrawer = new PieceConfig();
             mpwoodendrawer.Name = "$piece_mpwoodendrawer";
             mpwoodendrawer.Description = "$piece_mpwoodendrawer_description";
@@ -272,6 +282,24 @@ namespace MissingPieces
             mpwoodendrawer.Category = "Furniture";
             mpwoodendrawer.CraftingStation = "piece_workbench";
             mpwoodendrawer.AllowedInDungeons = true;
+            MPwoodendrawer.GetComponent<Container>().m_width = MissingPieces.WoodDrawerWidth.Value;
+            MPwoodendrawer.GetComponent<Container>().m_height = MissingPieces.WoodDrawerHeight.Value;
+            MPwoodendrawer.GetComponent<Container>().m_openEffects = new EffectList {
+                m_effectPrefabs = new EffectList.EffectData[] {
+                    new EffectList.EffectData() {
+                        m_prefab = WoodOpenEffect,
+                        m_enabled = true
+                    }
+                }
+            };
+            MPwoodendrawer.GetComponent<Container>().m_closeEffects = new EffectList {
+                m_effectPrefabs = new EffectList.EffectData[] {
+                    new EffectList.EffectData() {
+                        m_prefab = WoodCloseEffect,
+                        m_enabled = true
+                    }
+                }
+            };
             mpwoodendrawer.Requirements = new RequirementConfig[]
             {
                 new RequirementConfig() { Item = "FineWood", Amount = 10, Recover = true },
@@ -279,6 +307,8 @@ namespace MissingPieces
                 new RequirementConfig() { Item = "Coal", Amount = 1, Recover = true }
             };
             PieceManager.Instance.AddPiece(new CustomPiece(MPwoodendrawer, true, mpwoodendrawer));
+            
+            PrefabManager.OnVanillaPrefabsAvailable -= AddMissingPieces;
         }
     }
 }
