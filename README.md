@@ -67,6 +67,11 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ## Changelog
 
+### 2.0.4
+
+* Wooden drawer sign given more space to prevent flickering and fixed missing effects for drawer
+* Recompile to fix vulkan graphics support (signs were pink)
+
 ### 2.0.3
 
 * Update for game patch 0.217.22, bepinex version 5.4.22.0

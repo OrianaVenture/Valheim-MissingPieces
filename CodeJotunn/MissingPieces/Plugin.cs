@@ -15,7 +15,7 @@ namespace MissingPieces
     {
         public const string PluginGUID = "com.Bento.MissingPieces";
         public const string PluginName = "MissingPieces";
-        public const string PluginVersion = "2.0.3";
+        public const string PluginVersion = "2.0.4";
 
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
 
