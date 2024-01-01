@@ -67,6 +67,10 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ## Changelog
 
+### 2.0.5
+
+* Adding Polish translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
+
 ### 2.0.4
 
 * Wooden drawer sign given more space to prevent flickering and fixed missing effects for drawer
