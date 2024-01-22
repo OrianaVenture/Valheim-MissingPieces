@@ -1,0 +1,54 @@
+{
+  "piece_stonewall1x1triangular": "Steinrampe 1x1",
+  "piece_stonewall1x1triangular_description": "Bitte sehr!",
+  
+  "piece_stonewall2x1triangular": "Steinrampe 2x1",
+  "piece_stonewall2x1triangular_description": "Sollte sich als nützlich erweisen!",
+  
+  "piece_stonestaircorner": "Steintreppe Aussenecke",
+  "piece_stonestaircorner_description": "Warum gibt es das nicht schon längst?",
+  
+  "piece_woodfloortriangular1": "Dreieckiger Holzboden (1)",
+  "piece_woodfloortriangular1_description": "Der andere ist anders, ich schwöre es!",
+  
+  "piece_woodfloortriangular2": "Dreieckiger Holzboden (2)",
+  "piece_woodfloortriangular2_description": "siehst du? Hab ich doch gesagt.",
+  
+  "piece_finerstepladder": "Feinere Holzleiter",
+  "piece_finerstepladder_description": "Oh nein! Was was ist das? Eine Stufenleiter?",
+  
+  "piece_woodstair1m": "Schmale Holztreppe",
+  "piece_woodstair1m_description": "Ist die auf Diät?",
+  
+  "piece_rightwoodroof26triangular": "Rechtes dreieckiges Holzdach (26°)",
+  "piece_rightwoodroof26triangular_description": "H o l z",
+  
+  "piece_leftwoodroof26triangular": "Linkes dreieckiges Holzdach (26°)",
+  "piece_leftwoodroof26triangular_description": "Holz",
+  
+  "piece_rightwoodroof45triangular": "Rechtes dreieckiges Holzdach (45°)",
+  "piece_rightwoodroof45triangular_description": "Holz?",
+  
+  "piece_leftwoodroof45triangular": "Linkes dreieckiges Holzdach (45°)",
+  "piece_leftwoodroof45triangular_description": "Holz!",
+  
+  "piece_rightdarkwoodroof26triangular": "Rechtes dreieckiges Dunkelholzdach (26°)",
+  "piece_rightdarkwoodroof26triangular_description": "Das Richtige.",
+  
+  "piece_leftdarkwoodroof26triangular": "Linkes dreieckiges Dunkelholzdach (26°)",
+  "piece_leftdarkwoodroof26triangular_description": "Vielleicht ist dies das Richtige?",
+  
+  "piece_rightdarkwoodroof45triangular": "Rechtes dreieckiges Dunkelholzdach (45°)",
+  "piece_rightdarkwoodroof45triangular_description": "Ist das das Richtige?",
+  
+  "piece_leftdarkwoodroof45triangular": "Linkes dreieckiges Dunkelholzdach (45°)",
+  "piece_leftdarkwoodroof45triangular_description": "Nein, das auch nicht.",
+  
+  "piece_mpwoodendrawer": "Hölzerne Schublade",
+  "piece_mpwoodendrawer_description": "Es ist eine Schublade, und sie ist aus Holz.",
+  "piece_drawer_open": "Öffnen",
+  "piece_drawer_edit": "Einstellungen",
+  
+  "piece_stonefloor1x1": "Steinboden 1x1",
+  "piece_stonefloor1x1_description": "Ein Meter mal ein Meter oder, in freien Einheiten, die Breite eines Kühlschranks."
+}

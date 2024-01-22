@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MissingPieces</RootNamespace>
     <AssemblyName>MissingPieces</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
@@ -60,7 +60,7 @@
     <Reference Include="0Harmony, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>$(GamePath)\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="BepInEx, Version=5.4.21.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="BepInEx, Version=5.4.22.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>$(GamePath)\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="assembly_googleanalytics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -128,8 +128,11 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="missing_pieces" />
-    <EmbeddedResource Include="Localization\English.json" />
-    <EmbeddedResource Include="Localization\Polish.json" />
+    <EmbeddedResource Include="Localization\Chinese.json" />
+	<EmbeddedResource Include="Localization\English.json" />
+    <EmbeddedResource Include="Localization\French.json" />
+    <EmbeddedResource Include="Localization\German.json" />
+	<EmbeddedResource Include="Localization\Polish.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -15,25 +15,36 @@ namespace MissingPieces
     {
         public const string PluginGUID = "com.Bento.MissingPieces";
         public const string PluginName = "MissingPieces";
-        public const string PluginVersion = "2.0.5";
+        public const string PluginVersion = "2.0.6";
 
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
 
         public void Awake()
         {
-            //load the mod
+            // load the mod
             AddMissingPieces();
 
             // load embedded localization
-            string englishJson = AssetUtils.LoadTextFromResources("Localization.English.json", Assembly.GetExecutingAssembly());
-            string polishJson = AssetUtils.LoadTextFromResources("Localization.Polish.json", Assembly.GetExecutingAssembly());
-            Localization.AddJsonFile("English", englishJson);
-            Localization.AddJsonFile("Polish", polishJson);
+            string localizedJson = AssetUtils.LoadTextFromResources("Localization.Chinese.json", Assembly.GetExecutingAssembly());
+            Localization.AddJsonFile("Chinese", localizedJson);
+            Localization.AddJsonFile("Chinese_Trad", localizedJson);
 
-            //tell that the mod injection worked
+            localizedJson = AssetUtils.LoadTextFromResources("Localization.English.json", Assembly.GetExecutingAssembly());
+            Localization.AddJsonFile("English", localizedJson);
+
+            localizedJson = AssetUtils.LoadTextFromResources("Localization.French.json", Assembly.GetExecutingAssembly());
+            Localization.AddJsonFile("French", localizedJson);
+
+            localizedJson = AssetUtils.LoadTextFromResources("Localization.German.json", Assembly.GetExecutingAssembly());
+            Localization.AddJsonFile("German", localizedJson);
+
+            localizedJson = AssetUtils.LoadTextFromResources("Localization.Polish.json", Assembly.GetExecutingAssembly());
+            Localization.AddJsonFile("Polish", localizedJson);
+
+            // tell that the mod injection worked
             Jotunn.Logger.LogInfo("Missing Pieces landed!");
         }
-
+        
         private void AddMissingPieces()
         {
             AssetBundle bundle = AssetUtils.LoadAssetBundleFromResources("missing_pieces", Assembly.GetExecutingAssembly());
@@ -235,7 +246,7 @@ namespace MissingPieces
                 new RequirementConfig() { Item = "Tar", Amount = 1, Recover = true }
             };
             PieceManager.Instance.AddPiece(new CustomPiece(leftDarkwoodRoof26Triangular,true, leftdarkwoodroof26triangular));
-
+            
             GameObject rightDarkwoodRoof45Triangular = bundle.LoadAsset<GameObject>("roof_darkwood_45_right");
             PieceConfig rightdarkwoodroof45triangular = new PieceConfig();
             rightdarkwoodroof45triangular.Name = "$piece_rightdarkwoodroof45triangular";
