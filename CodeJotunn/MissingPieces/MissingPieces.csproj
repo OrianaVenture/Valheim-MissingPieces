@@ -129,10 +129,11 @@
   <ItemGroup>
     <EmbeddedResource Include="missing_pieces" />
     <EmbeddedResource Include="Localization\Chinese.json" />
-	<EmbeddedResource Include="Localization\English.json" />
+    <EmbeddedResource Include="Localization\English.json" />
     <EmbeddedResource Include="Localization\French.json" />
     <EmbeddedResource Include="Localization\German.json" />
-	<EmbeddedResource Include="Localization\Polish.json" />
+    <EmbeddedResource Include="Localization\Polish.json" />
+    <EmbeddedResource Include="Localization\Korean.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -67,9 +67,13 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ## Changelog
 
+### 2.0.7
+
+* Adding Korean translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
+
 ### 2.0.6
 
-* Adding Chinese, French, and German translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
+* Adding Chinese, French, and German translations
 
 ### 2.0.5
 
