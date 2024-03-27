@@ -44,6 +44,9 @@ namespace MissingPieces
             localizedJson = AssetUtils.LoadTextFromResources("Localization.Korean.json", Assembly.GetExecutingAssembly());
             Localization.AddJsonFile("Korean", localizedJson);
 
+            localizedJson = AssetUtils.LoadTextFromResources("Localization.Russian.json", Assembly.GetExecutingAssembly());
+            Localization.AddJsonFile("Korean", localizedJson);
+
             // tell that the mod injection worked
             Jotunn.Logger.LogInfo("Missing Pieces landed!");
         }

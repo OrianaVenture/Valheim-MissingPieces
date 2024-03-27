@@ -134,6 +134,7 @@
     <EmbeddedResource Include="Localization\German.json" />
     <EmbeddedResource Include="Localization\Polish.json" />
     <EmbeddedResource Include="Localization\Korean.json" />
+    <EmbeddedResource Include="Localization\Russian.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
