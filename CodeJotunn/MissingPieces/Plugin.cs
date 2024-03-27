@@ -15,7 +15,7 @@ namespace MissingPieces
     {
         public const string PluginGUID = "com.Bento.MissingPieces";
         public const string PluginName = "MissingPieces";
-        public const string PluginVersion = "2.0.7";
+        public const string PluginVersion = "2.0.8";
 
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
 
@@ -45,7 +45,7 @@ namespace MissingPieces
             Localization.AddJsonFile("Korean", localizedJson);
 
             localizedJson = AssetUtils.LoadTextFromResources("Localization.Russian.json", Assembly.GetExecutingAssembly());
-            Localization.AddJsonFile("Korean", localizedJson);
+            Localization.AddJsonFile("Russian", localizedJson);
 
             // tell that the mod injection worked
             Jotunn.Logger.LogInfo("Missing Pieces landed!");

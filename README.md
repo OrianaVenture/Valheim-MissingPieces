@@ -13,11 +13,15 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ### Stone Stair Corner:
 
+Prefab name: stone_stair_corner
+
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/corner.png?raw=true" />
 </p>
 
 ### Finer Step-Ladder:
+
+Prefab name: wood_finerstepladder
 
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/ladder.png?raw=true" />
@@ -25,11 +29,15 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ### Diagonal Roof Edge Pieces (darkwood):
 
+Prefab names: roof_darkwood_26_right, roof_darkwood_26_left, roof_darkwood_45_right, roof_darkwood_45_left
+
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/roof.png?raw=true" />
 </p>
 
 ### Narrow Wood Stair:
+
+Prefab name: wood_stair_1m
 
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/stair.png?raw=true" />
@@ -37,11 +45,15 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ### Stone Ramps:
 
+Prefab names: stone_wall_1x1_triangular, stone_wall_2x1_triangular
+
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/stone_triangular.png?raw=true" />
 </p>
 
 ### Diagonal Roof Edge Pieces (wood):
+
+Prefab names: roof_wood_26_right, roof_wood_26_left, roof_wood_45_right, roof_wood_45_left
 
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/roof2.png?raw=true" />
@@ -49,11 +61,15 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ### Right-Triangular Floor Pieces:
 
+Prefab names: wood_floor_triangular1, wood_floor_triangular2
+
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/trig_floor.png?raw=true" />
 </p>
 
 ### 1 Meter wide Stone Floor:
+
+Prefab name: stone_floor_1x1
 
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/1x1_stone_floor.png?raw=true" />
@@ -61,15 +77,21 @@ When playing with this mod you may find the build menu runs out of space for all
 
 ### Wooden drawer (finewood chest sized, stackable and with text infront):
 
+Prefab name: piece_chest_wooden_drawer
+
 <p align="center">
 <img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/drawer.png?raw=true" />
 </p>
 
 ## Changelog
 
+### 2.0.8
+
+* Adding Russian translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
+
 ### 2.0.7
 
-* Adding Korean translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
+* Adding Korean translations
 
 ### 2.0.6
 
