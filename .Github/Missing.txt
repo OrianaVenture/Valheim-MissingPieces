@@ -1,6 +1,0 @@
-26d roof: RIGHT and LEFT triangular
-45  d roof: RIGHT and LEFT triangular
-7 steped step-ladder
-1m wide 26d stair
-Bent darkwood
-4x2 corewood wall

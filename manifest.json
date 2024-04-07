@@ -1,7 +1,0 @@
-{
-    "name": "MissingPieces",
-    "version_number": "2.0.0",
-    "website_url": "https://github.com/BentoGambin/Valheim-MissingPieces",
-    "description": "A fix for what impedes your building fix.",
-    "dependencies": ["ValheimModding-Jotunn-2.6.9"]
-}

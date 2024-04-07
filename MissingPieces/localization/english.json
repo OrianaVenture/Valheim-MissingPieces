@@ -1,0 +1,66 @@
+{
+    "piece_stonewall1x1triangular": "Stone Ramp 1x1",
+    "piece_stonewall1x1triangular_description": "You're welcome!",
+
+    "piece_stonewall2x1triangular": "Stone Ramp 2x1",
+    "piece_stonewall2x1triangular_description": "Should come in handy!",
+
+    "piece_stonestaircorner": "Stone Stair Corner",
+    "piece_stonestaircorner_description": "How was this not a thing already?",
+
+    "piece_woodfloortriangular1": "Triangular Wood Floor (1)",
+    "piece_woodfloortriangular1_description": "The other one is different, I swear!",
+
+    "piece_woodfloortriangular2": "Triangular Wood Floor (2)",
+    "piece_woodfloortriangular2_description": "See? I told you.",
+
+    "piece_finerstepladder": "Finer Wood Ladder",
+    "piece_finerstepladder_description": "Oh no. What are you doing step-ladder?",
+
+    "piece_woodstair1m": "Narrow wood stair",
+    "piece_woodstair1m_description": "Are you on a diet?",
+
+    "piece_rightwoodroof26triangular": "Right Triangular Thatch Roof (26°)",
+    "piece_rightwoodroof26triangular_description": "W o o d",
+
+    "piece_leftwoodroof26triangular": "Left Triangular Thatch Roof (26°)",
+    "piece_leftwoodroof26triangular_description": "Vood",
+
+    "piece_rightwoodroof45triangular": "Right Triangular Thatch Roof (45°)",
+    "piece_rightwoodroof45triangular_description": "Woody",
+
+    "piece_leftwoodroof45triangular": "Left Triangular Thatch Roof (45°)",
+    "piece_leftwoodroof45triangular_description": "Wud",
+
+    "piece_rightdarkwoodroof26triangular": "Right Triangular Shingle Roof (26°)",
+    "piece_rightdarkwoodroof26triangular_description": "The right one.",
+
+    "piece_leftdarkwoodroof26triangular": "Left Triangular Shingle Roof (26°)",
+    "piece_leftdarkwoodroof26triangular_description": "Maybe this is the one",
+
+    "piece_rightdarkwoodroof45triangular": "Right Triangular Shingle Roof (45°)",
+    "piece_rightdarkwoodroof45triangular_description": "Is this the right one?",
+
+    "piece_leftdarkwoodroof45triangular": "Left Triangular Shingle Roof (45°)",
+    "piece_leftdarkwoodroof45triangular_description": "Nope, not this one either.",
+
+    "piece_mpwoodendrawer": "Wooden Drawer",
+    "piece_mpwoodendrawer_description": "It's a drawer, and it's made of wood. Duh.",
+    "piece_drawer_open": "Open",
+    "piece_drawer_edit": "Edit",
+
+    "piece_stonefloor1x1": "Stone Floor 1x1",
+    "piece_stonefloor1x1_description": "One meter by one meter or, in freedom units, a fridge's width wide.",
+
+    "piece_roofdarkwood2m": "Shingle Roof 2m",
+    "piece_roofdarkwood2m_description": "It's also really flat.",
+
+    "piece_roofwood2m": "Thatch Roof 2m",
+    "piece_roofwood2m_description": "It's really flat.",
+
+    "piece_woodwallhalfupper": "Wood Wall Half Upper",
+    "piece_woodwallhalfupper_description": "A perfect opposite.",
+
+    "piece_woodwallquarterupper": "Wood Wall Quarter Upper",
+    "piece_woodwallquarterupper_description": "A smaller perfect opposite."
+}

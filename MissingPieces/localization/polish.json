@@ -1,0 +1,66 @@
+{
+    "piece_stonewall1x1triangular": "Kamienna rampa 1x1",
+    "piece_stonewall1x1triangular_description": "Nie ma za co!",
+
+    "piece_stonewall2x1triangular": "Kamienna rampa 2x1",
+    "piece_stonewall2x1triangular_description": "Powinien się przydać!",
+
+    "piece_stonestaircorner": "Kamienne narożne schody",
+    "piece_stonestaircorner_description": "Jakim cudem tego jeszcze nie było?",
+
+    "piece_woodfloortriangular1": "Trójkątna podłoga drewniana (1)",
+    "piece_woodfloortriangular1_description": "Ta druga jest inna, przysięgam!",
+
+    "piece_woodfloortriangular2": "Trójkątna podłoga drewniana (2)",
+    "piece_woodfloortriangular2_description": "Widzisz? Mówiłem Ci.",
+
+    "piece_finerstepladder": "Lepsza drewniana drabina",
+    "piece_finerstepladder_description": "O nie. Co ty robisz z drabiną?",
+
+    "piece_woodstair1m": "Wąskie drewniane schody",
+    "piece_woodstair1m_description": "Jesteś na diecie?",
+
+    "piece_rightwoodroof26triangular": "Prawy trójkątny dach ze strzechy (26°)",
+    "piece_rightwoodroof26triangular_description": "W o o d",
+
+    "piece_leftwoodroof26triangular": "Lewy trójkątny dach ze strzechy (26°)",
+    "piece_leftwoodroof26triangular_description": "Vood",
+
+    "piece_rightwoodroof45triangular": "Prawy trójkątny dach ze strzechy (45°)",
+    "piece_rightwoodroof45triangular_description": "Woody",
+
+    "piece_leftwoodroof45triangular": "Lewy trójkątny dach ze strzechy (45°)",
+    "piece_leftwoodroof45triangular_description": "Wud",
+
+    "piece_rightdarkwoodroof26triangular": "Prawy trójkątny dach z gontu (26°)",
+    "piece_rightdarkwoodroof26triangular_description": "Prawy",
+
+    "piece_leftdarkwoodroof26triangular": "Lewy trójkątny dach z gontu (26°)",
+    "piece_leftdarkwoodroof26triangular_description": "Może ten.",
+
+    "piece_rightdarkwoodroof45triangular": "Prawy trójkątny dach z gontu (45°)",
+    "piece_rightdarkwoodroof45triangular_description": "Czy to się nada?",
+
+    "piece_leftdarkwoodroof45triangular": "Lewy trójkątny dach z gontu (45°)",
+    "piece_leftdarkwoodroof45triangular_description": "Ten też nie.",
+
+    "piece_mpwoodendrawer": "Drewniana szuflada",
+    "piece_mpwoodendrawer_description": "To szuflada i jest wykonana z drewna. Duh.",
+    "piece_drawer_open": "Otwórz",
+    "piece_drawer_edit": "Edytuj",
+
+    "piece_stonefloor1x1": "Kamienna podłoga 1x1",
+    "piece_stonefloor1x1_description": "Jeden metr na jeden metr lub, w jednostkach wolności, szerokość lodówki.",
+
+    "piece_roofdarkwood2m": "Dach z gontu 2m",
+    "piece_roofdarkwood2m_description": "Jest też naprawdę płaski.",
+
+    "piece_roofwood2m": "Dach ze strzechy 2m",
+    "piece_roofwood2m_description": "Jest naprawdę płaski.",
+
+    "piece_woodwallhalfupper": "Górna połówka drewnianej ściany",
+    "piece_woodwallhalfupper_description": "Idealne przeciwieństwo.",
+
+    "piece_woodwallquarterupper": "Górna ćwiartka drewnianej ściany",
+    "piece_woodwallquarterupper_description": "Mniejsze idealne przeciwieństwo."
+}

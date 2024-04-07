@@ -1,0 +1,66 @@
+{
+  "piece_stonewall1x1triangular": "돌 비탈길 1x1",
+  "piece_stonewall1x1triangular_description": "천만에요!",
+  
+  "piece_stonewall2x1triangular": "돌 비탈길 2x1",
+  "piece_stonewall2x1triangular_description": "유용해야합니다!",
+  
+  "piece_stonestaircorner": "돌 계단 코너",
+  "piece_stonestaircorner_description": "어떻게 이미 이런 일이 아니었을까요?",
+  
+  "piece_woodfloortriangular1": "삼각형 나무 바닥 (1)",
+  "piece_woodfloortriangular1_description": "다른 하나는 다릅니다. 맹세해요!",
+  
+  "piece_woodfloortriangular2": "삼각형 나무 바닥 (2)",
+  "piece_woodfloortriangular2_description": "봐봐, 내가 말했잖아.",
+  
+  "piece_finerstepladder": "미세한 나무 사다리",
+  "piece_finerstepladder_description": "안 돼. 계단사다리로 뭐하는거야?",
+  
+  "piece_woodstair1m": "좁은 나무 계단",
+  "piece_woodstair1m_description": "다이어트 중이신가요?",
+  
+  "piece_rightwoodroof26triangular": "직각 삼각형 초가지붕 (26°)",
+  "piece_rightwoodroof26triangular_description": "초가지붕입니다",
+  
+  "piece_leftwoodroof26triangular": "왼쪽 삼각형 초가지붕 (26°)",
+  "piece_leftwoodroof26triangular_description": "초가지붕입니다",
+  
+  "piece_rightwoodroof45triangular": "직각 삼각형 초가지붕 (45°)",
+  "piece_rightwoodroof45triangular_description": "초가지붕입니다",
+  
+  "piece_leftwoodroof45triangular": "왼쪽 삼각형 초가지붕 (45°)",
+  "piece_leftwoodroof45triangular_description": "초가지붕입니다",
+  
+  "piece_rightdarkwoodroof26triangular": "우측 삼각형 지붕덮개 (26°)",
+  "piece_rightdarkwoodroof26triangular_description": "오른쪽에있는 것.",
+  
+  "piece_leftdarkwoodroof26triangular": "좌측 삼각형 지붕덮개 (26°)",
+  "piece_leftdarkwoodroof26triangular_description": "아마도 이것이 바로 그 것일 것이다.",
+  
+  "piece_rightdarkwoodroof45triangular": "우측 삼각형 지붕덮개 (45°)",
+  "piece_rightdarkwoodroof45triangular_description": "이게 맞는 걸까요?",
+  
+  "piece_leftdarkwoodroof45triangular": "좌측 삼각형 지붕덮개 (45°)",
+  "piece_leftdarkwoodroof45triangular_description": "아뇨, 이것도 아닙니다.",
+  
+  "piece_mpwoodendrawer": "나무 서랍",
+  "piece_mpwoodendrawer_description": "서랍인데, 나무로 만들어졌어요. 윽.",
+  "piece_drawer_open": "열기",
+  "piece_drawer_edit": "편집",
+  
+  "piece_stonefloor1x1": "돌 바닥 1x1",
+  "piece_stonefloor1x1_description": "1미터 x 1미터 또는 자유 단위에서는 냉장고 너비만큼 넓습니다."
+  
+  "piece_roofdarkwood2m": "지붕덮개 2m",
+  "piece_roofdarkwood2m_description": "정말 평평해요.",
+
+  "piece_roofwood2m": "초가지붕 2m",
+  "piece_roofwood2m_description": "정말 평평해요.",
+
+  "piece_woodwallhalfupper": "나무벽 (윗면 1/2)",
+  "piece_woodwallhalfupper_description": "완벽하게 맞은편에 배치할수있습니다.",
+
+  "piece_woodwallquarterupper": "나무벽 (윗면 1/4)",
+  "piece_woodwallquarterupper_description": "완벽하게 맞은편에 배치할수있습니다."
+}

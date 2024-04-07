@@ -1,5 +1,5 @@
 
-[<img alt="Ideas" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/MissingPiecesGithub.png?raw=true" />](https://github.com/OrianaVenture/Valheim-MissingPieces)
+[<img alt="Ideas" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/MissingPiecesGithub.png?raw=true" />](https://github.com/OrianaVenture/Valheim-MissingPieces)
 
 <h2 align="center">A fix for what impedes your building fix.</h2>
 
@@ -16,7 +16,7 @@ When playing with this mod you may find the build menu runs out of space for all
 Prefab name: stone_stair_corner
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/corner.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/corner.png?raw=true" />
 </p>
 
 ### Finer Step-Ladder:
@@ -24,7 +24,7 @@ Prefab name: stone_stair_corner
 Prefab name: wood_finerstepladder
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/ladder.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/ladder.png?raw=true" />
 </p>
 
 ### Diagonal Roof Edge Pieces (darkwood):
@@ -32,7 +32,7 @@ Prefab name: wood_finerstepladder
 Prefab names: roof_darkwood_26_right, roof_darkwood_26_left, roof_darkwood_45_right, roof_darkwood_45_left
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/roof.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/roof.png?raw=true" />
 </p>
 
 ### Narrow Wood Stair:
@@ -40,7 +40,7 @@ Prefab names: roof_darkwood_26_right, roof_darkwood_26_left, roof_darkwood_45_ri
 Prefab name: wood_stair_1m
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/stair.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/stair.png?raw=true" />
 </p>
 
 ### Stone Ramps:
@@ -48,7 +48,7 @@ Prefab name: wood_stair_1m
 Prefab names: stone_wall_1x1_triangular, stone_wall_2x1_triangular
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/stone_triangular.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/stone_triangular.png?raw=true" />
 </p>
 
 ### Diagonal Roof Edge Pieces (wood):
@@ -56,7 +56,7 @@ Prefab names: stone_wall_1x1_triangular, stone_wall_2x1_triangular
 Prefab names: roof_wood_26_right, roof_wood_26_left, roof_wood_45_right, roof_wood_45_left
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/roof2.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/roof2.png?raw=true" />
 </p>
 
 ### Right-Triangular Floor Pieces:
@@ -64,60 +64,37 @@ Prefab names: roof_wood_26_right, roof_wood_26_left, roof_wood_45_right, roof_wo
 Prefab names: wood_floor_triangular1, wood_floor_triangular2
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/trig_floor.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/trig_floor.png?raw=true" />
 </p>
 
-### 1 Meter wide Stone Floor:
+### 1 Meter Wide Stone Floor:
 
 Prefab name: stone_floor_1x1
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/1x1_stone_floor.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/1x1_stone_floor.png?raw=true" />
 </p>
 
-### Wooden drawer (finewood chest sized, stackable and with text infront):
+### Wooden Drawer (finewood chest sized, stackable and with text infront):
 
 Prefab name: piece_chest_wooden_drawer
 
 <p align="center">
-<img alt="Ideas" width="800" src="https://github.com/BentoGambin/Valheim-MissingPieces/blob/main/.Github/drawer.png?raw=true" />
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/drawer.png?raw=true" />
 </p>
 
-## Changelog
+### Upper Partial Walls:
 
-### 2.0.8
+Prefab names: wood_wall_half_upper, wood_wall_quarter_upper
 
-* Adding Russian translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
+<p align="center">
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/walls.png?raw=true" />
+</p>
 
-### 2.0.7
+### Flat 2m Roof Pieces:
 
-* Adding Korean translations
+Prefab names: roof_wood_2m, roof_darkwood_2m
 
-### 2.0.6
-
-* Adding Chinese, French, and German translations
-
-### 2.0.5
-
-* Adding Polish translations
-
-### 2.0.4
-
-* Wooden drawer sign given more space to prevent flickering and fixed missing effects for drawer
-* Recompile to fix vulkan graphics support (signs were pink)
-
-### 2.0.3
-
-* Update for game patch 0.217.22, bepinex version 5.4.22.0
-
-### 2.0.2
-
-* Restored the sign drawer, fixed compatibility issue with Jotunn mocking system (version 2.14.4)
-* Fixed collider misalignment for a roof piece
-* Minor tweaks to lod groups
-
-### 2.0.1
-
-* Update for game patch 0.214.2
-* Removed sign from drawer temporarily until able to fix it
-* Fix for snap point alignment of piece roof_wood_45_left
+<p align="center">
+<img alt="Ideas" width="800" src="https://github.com/OrianaVenture/Valheim-MissingPieces/blob/main/.Github/roof_flat.png?raw=true" />
+</p>
