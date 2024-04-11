@@ -52,11 +52,11 @@
     "piece_stonefloor1x1": "Каменный пол 1x1",
     "piece_stonefloor1x1_description": "Метр на метр или, в самых свободных единицах измерения, размером с холодильник"
 
-    "piece_roofdarkwood2m": "Шиферная крыша 2 м",
-    "piece_roofdarkwood2m_description": "Также довольно плоская",
+    "piece_roofdarkwood2m": "Шиферная крыша (горизонтальная)",
+    "piece_roofdarkwood2m_description": "Тоже плоская",
 
-    "piece_roofwood2m": "Соломенная крыша 2 м",
-    "piece_roofwood2m_description": "Довольно плоская",
+    "piece_roofwood2m": "Соломенная крыша (горизонтальная)",
+    "piece_roofwood2m_description": "Она плоская!",
 
     "piece_woodwallhalfupper": "Деревянная стена (половина)",
     "piece_woodwallhalfupper_description": "Точно такая же, только меньше и другая",
