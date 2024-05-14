@@ -15,9 +15,15 @@ namespace MissingPieces
     {
         public const string PluginGUID = "com.Bento.MissingPieces";
         public const string PluginName = "MissingPieces";
-        public const string PluginVersion = "2.1.0";
+        public const string PluginVersion = "2.2.0";
 
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
+
+        private static string Hammer = "Hammer";
+        private static string Workbench = "piece_workbench";
+        private static string Stonecutter = "piece_stonecutter";
+        private static string CategoryBuildingWorkbench = "BuildingWorkbench";
+        private static string CategoryBuildingStonecutter = "BuildingStonecutter";
 
         public void Awake()
         {
@@ -59,9 +65,9 @@ namespace MissingPieces
             PieceConfig pc_woodwallhalf = new PieceConfig();
             pc_woodwallhalf.Name = "$piece_woodwallhalfupper";
             pc_woodwallhalf.Description = "$piece_woodwallhalfupper_description";
-            pc_woodwallhalf.PieceTable = "Hammer";
-            pc_woodwallhalf.Category = "Building";
-            pc_woodwallhalf.CraftingStation = "piece_workbench";
+            pc_woodwallhalf.PieceTable = Hammer;
+            pc_woodwallhalf.Category = CategoryBuildingWorkbench;
+            pc_woodwallhalf.CraftingStation = Workbench;
             pc_woodwallhalf.AllowedInDungeons = false;
             pc_woodwallhalf.Requirements = new RequirementConfig[]
             {
@@ -73,9 +79,9 @@ namespace MissingPieces
             PieceConfig pc_woodwallquarter = new PieceConfig();
             pc_woodwallquarter.Name = "$piece_woodwallquarterupper";
             pc_woodwallquarter.Description = "$piece_woodwallquarterupper_description";
-            pc_woodwallquarter.PieceTable = "Hammer";
-            pc_woodwallquarter.Category = "Building";
-            pc_woodwallquarter.CraftingStation = "piece_workbench";
+            pc_woodwallquarter.PieceTable = Hammer;
+            pc_woodwallquarter.Category = CategoryBuildingWorkbench;
+            pc_woodwallquarter.CraftingStation = Workbench;
             pc_woodwallquarter.AllowedInDungeons = false;
             pc_woodwallquarter.Requirements = new RequirementConfig[]
             {
@@ -87,9 +93,9 @@ namespace MissingPieces
             PieceConfig stonewall1x1triangular = new PieceConfig();
             stonewall1x1triangular.Name = "$piece_stonewall1x1triangular";
             stonewall1x1triangular.Description = "$piece_stonewall1x1triangular_description";
-            stonewall1x1triangular.PieceTable = "Hammer";
-            stonewall1x1triangular.Category = "Building";
-            stonewall1x1triangular.CraftingStation = "piece_stonecutter";
+            stonewall1x1triangular.PieceTable = Hammer;
+            stonewall1x1triangular.Category = CategoryBuildingStonecutter;
+            stonewall1x1triangular.CraftingStation = Stonecutter;
             stonewall1x1triangular.AllowedInDungeons = false;
             stonewall1x1triangular.Requirements = new RequirementConfig[]
             {
@@ -101,9 +107,9 @@ namespace MissingPieces
             PieceConfig stonewall2x1triangular = new PieceConfig();
             stonewall2x1triangular.Name = "$piece_stonewall2x1triangular";
             stonewall2x1triangular.Description = "$piece_stonewall2x1triangular_description";
-            stonewall2x1triangular.PieceTable = "Hammer";
-            stonewall2x1triangular.Category = "Building";
-            stonewall2x1triangular.CraftingStation = "piece_stonecutter";
+            stonewall2x1triangular.PieceTable = Hammer;
+            stonewall2x1triangular.Category = CategoryBuildingStonecutter;
+            stonewall2x1triangular.CraftingStation = Stonecutter;
             stonewall2x1triangular.AllowedInDungeons = false;
             stonewall2x1triangular.Requirements = new RequirementConfig[]
             {
@@ -115,9 +121,9 @@ namespace MissingPieces
             PieceConfig stonestaircorner = new PieceConfig();
             stonestaircorner.Name = "$piece_stonestaircorner";
             stonestaircorner.Description = "$piece_stonestaircorner_description";
-            stonestaircorner.PieceTable = "Hammer";
-            stonestaircorner.Category = "Building";
-            stonestaircorner.CraftingStation = "piece_stonecutter";
+            stonestaircorner.PieceTable = Hammer;
+            stonestaircorner.Category = CategoryBuildingStonecutter;
+            stonestaircorner.CraftingStation = Stonecutter;
             stonestaircorner.AllowedInDungeons = false;
             stonestaircorner.Requirements = new RequirementConfig[]
             {
@@ -129,9 +135,9 @@ namespace MissingPieces
             PieceConfig stonefloor1x1 = new PieceConfig();
             stonefloor1x1.Name = "$piece_stonefloor1x1";
             stonefloor1x1.Description = "$piece_stonefloor1x1_description";
-            stonefloor1x1.PieceTable = "Hammer";
-            stonefloor1x1.Category = "Building";
-            stonefloor1x1.CraftingStation = "piece_stonecutter";
+            stonefloor1x1.PieceTable = Hammer;
+            stonefloor1x1.Category = CategoryBuildingStonecutter;
+            stonefloor1x1.CraftingStation = Stonecutter;
             stonefloor1x1.AllowedInDungeons = false;
             stonefloor1x1.Requirements = new RequirementConfig[]
             {
@@ -143,9 +149,9 @@ namespace MissingPieces
             PieceConfig woodfloortriangular1 = new PieceConfig();
             woodfloortriangular1.Name = "$piece_woodfloortriangular1";
             woodfloortriangular1.Description = "$piece_woodfloortriangular1_description";
-            woodfloortriangular1.PieceTable = "Hammer";
-            woodfloortriangular1.Category = "Building";
-            woodfloortriangular1.CraftingStation = "piece_workbench";
+            woodfloortriangular1.PieceTable = Hammer;
+            woodfloortriangular1.Category = CategoryBuildingWorkbench;
+            woodfloortriangular1.CraftingStation = Workbench;
             woodfloortriangular1.AllowedInDungeons = false;
             woodfloortriangular1.Requirements = new RequirementConfig[]
             {
@@ -157,9 +163,9 @@ namespace MissingPieces
             PieceConfig woodfloortriangular2 = new PieceConfig();
             woodfloortriangular2.Name = "$piece_woodfloortriangular2";
             woodfloortriangular2.Description = "$piece_woodfloortriangular2_description";
-            woodfloortriangular2.PieceTable = "Hammer";
-            woodfloortriangular2.Category = "Building";
-            woodfloortriangular2.CraftingStation = "piece_workbench";
+            woodfloortriangular2.PieceTable = Hammer;
+            woodfloortriangular2.Category = CategoryBuildingWorkbench;
+            woodfloortriangular2.CraftingStation = Workbench;
             woodfloortriangular2.AllowedInDungeons = false;
             woodfloortriangular2.Requirements = new RequirementConfig[]
             {
@@ -171,9 +177,9 @@ namespace MissingPieces
             PieceConfig finerstepladder = new PieceConfig();
             finerstepladder.Name = "$piece_finerstepladder";
             finerstepladder.Description = "$piece_finerstepladder_description";
-            finerstepladder.PieceTable = "Hammer";
-            finerstepladder.Category = "Building";
-            finerstepladder.CraftingStation = "piece_workbench";
+            finerstepladder.PieceTable = Hammer;
+            finerstepladder.Category = CategoryBuildingWorkbench;
+            finerstepladder.CraftingStation = Workbench;
             finerstepladder.AllowedInDungeons = false;
             finerstepladder.Requirements = new RequirementConfig[]
             {
@@ -185,9 +191,9 @@ namespace MissingPieces
             PieceConfig woodstair1m = new PieceConfig();
             woodstair1m.Name = "$piece_woodstair1m";
             woodstair1m.Description = "$piece_woodstair1m_description";
-            woodstair1m.PieceTable = "Hammer";
-            woodstair1m.Category = "Building";
-            woodstair1m.CraftingStation = "piece_workbench";
+            woodstair1m.PieceTable = Hammer;
+            woodstair1m.Category = CategoryBuildingWorkbench;
+            woodstair1m.CraftingStation = Workbench;
             woodstair1m.AllowedInDungeons = false;
             woodstair1m.Requirements = new RequirementConfig[]
             {
@@ -199,9 +205,9 @@ namespace MissingPieces
             PieceConfig pc_woodRoof2m = new PieceConfig();
             pc_woodRoof2m.Name = "$piece_roofwood2m";
             pc_woodRoof2m.Description = "$piece_roofwood2m_description";
-            pc_woodRoof2m.PieceTable = "Hammer";
-            pc_woodRoof2m.Category = "Building";
-            pc_woodRoof2m.CraftingStation = "piece_workbench";
+            pc_woodRoof2m.PieceTable = Hammer;
+            pc_woodRoof2m.Category = CategoryBuildingWorkbench;
+            pc_woodRoof2m.CraftingStation = Workbench;
             pc_woodRoof2m.AllowedInDungeons = false;
             pc_woodRoof2m.Requirements = new RequirementConfig[]
             {
@@ -213,9 +219,9 @@ namespace MissingPieces
             PieceConfig rightwoodroof26triangular = new PieceConfig();
             rightwoodroof26triangular.Name = "$piece_rightwoodroof26triangular";
             rightwoodroof26triangular.Description = "$piece_rightwoodroof26triangular_description";
-            rightwoodroof26triangular.PieceTable = "Hammer";
-            rightwoodroof26triangular.Category = "Building";
-            rightwoodroof26triangular.CraftingStation = "piece_workbench";
+            rightwoodroof26triangular.PieceTable = Hammer;
+            rightwoodroof26triangular.Category = CategoryBuildingWorkbench;
+            rightwoodroof26triangular.CraftingStation = Workbench;
             rightwoodroof26triangular.AllowedInDungeons = false;
             rightwoodroof26triangular.Requirements = new RequirementConfig[]
             {
@@ -227,9 +233,9 @@ namespace MissingPieces
             PieceConfig leftwoodroof26triangular = new PieceConfig();
             leftwoodroof26triangular.Name = "$piece_leftwoodroof26triangular";
             leftwoodroof26triangular.Description = "$piece_leftwoodroof26triangular_description";
-            leftwoodroof26triangular.PieceTable = "Hammer";
-            leftwoodroof26triangular.Category = "Building";
-            leftwoodroof26triangular.CraftingStation = "piece_workbench";
+            leftwoodroof26triangular.PieceTable = Hammer;
+            leftwoodroof26triangular.Category = CategoryBuildingWorkbench;
+            leftwoodroof26triangular.CraftingStation = Workbench;
             leftwoodroof26triangular.AllowedInDungeons = false;
             leftwoodroof26triangular.Requirements = new RequirementConfig[]
             {
@@ -241,9 +247,9 @@ namespace MissingPieces
             PieceConfig rightwoodroof45triangular = new PieceConfig();
             rightwoodroof45triangular.Name = "$piece_rightwoodroof45triangular";
             rightwoodroof45triangular.Description = "$piece_rightwoodroof45triangular_description";
-            rightwoodroof45triangular.PieceTable = "Hammer";
-            rightwoodroof45triangular.Category = "Building";
-            rightwoodroof45triangular.CraftingStation = "piece_workbench";
+            rightwoodroof45triangular.PieceTable = Hammer;
+            rightwoodroof45triangular.Category = CategoryBuildingWorkbench;
+            rightwoodroof45triangular.CraftingStation = Workbench;
             rightwoodroof45triangular.AllowedInDungeons = false;
             rightwoodroof45triangular.Requirements = new RequirementConfig[]
             {
@@ -255,9 +261,9 @@ namespace MissingPieces
             PieceConfig leftwoodroof45triangular = new PieceConfig();
             leftwoodroof45triangular.Name = "$piece_leftwoodroof45triangular";
             leftwoodroof45triangular.Description = "$piece_leftwoodroof45triangular_description";
-            leftwoodroof45triangular.PieceTable = "Hammer";
-            leftwoodroof45triangular.Category = "Building";
-            leftwoodroof45triangular.CraftingStation = "piece_workbench";
+            leftwoodroof45triangular.PieceTable = Hammer;
+            leftwoodroof45triangular.Category = CategoryBuildingWorkbench;
+            leftwoodroof45triangular.CraftingStation = Workbench;
             leftwoodroof45triangular.AllowedInDungeons = false;
             leftwoodroof45triangular.Requirements = new RequirementConfig[]
             {
@@ -269,9 +275,9 @@ namespace MissingPieces
             PieceConfig pc_darkwoodRoof2m = new PieceConfig();
             pc_darkwoodRoof2m.Name = "$piece_roofdarkwood2m";
             pc_darkwoodRoof2m.Description = "$piece_roofdarkwood2m_description";
-            pc_darkwoodRoof2m.PieceTable = "Hammer";
-            pc_darkwoodRoof2m.Category = "Building";
-            pc_darkwoodRoof2m.CraftingStation = "piece_workbench";
+            pc_darkwoodRoof2m.PieceTable = Hammer;
+            pc_darkwoodRoof2m.Category = CategoryBuildingWorkbench;
+            pc_darkwoodRoof2m.CraftingStation = Workbench;
             pc_darkwoodRoof2m.AllowedInDungeons = false;
             pc_darkwoodRoof2m.Requirements = new RequirementConfig[]
             {
@@ -284,9 +290,9 @@ namespace MissingPieces
             PieceConfig rightdarkwoodroof26triangular = new PieceConfig();
             rightdarkwoodroof26triangular.Name = "$piece_rightdarkwoodroof26triangular";
             rightdarkwoodroof26triangular.Description = "$piece_rightdarkwoodroof26triangular_description";
-            rightdarkwoodroof26triangular.PieceTable = "Hammer";
-            rightdarkwoodroof26triangular.Category = "Building";
-            rightdarkwoodroof26triangular.CraftingStation = "piece_workbench";
+            rightdarkwoodroof26triangular.PieceTable = Hammer;
+            rightdarkwoodroof26triangular.Category = CategoryBuildingWorkbench;
+            rightdarkwoodroof26triangular.CraftingStation = Workbench;
             rightdarkwoodroof26triangular.AllowedInDungeons = false;
             rightdarkwoodroof26triangular.Requirements = new RequirementConfig[]
             {
@@ -299,9 +305,9 @@ namespace MissingPieces
             PieceConfig leftdarkwoodroof26triangular = new PieceConfig();
             leftdarkwoodroof26triangular.Name = "$piece_leftdarkwoodroof26triangular";
             leftdarkwoodroof26triangular.Description = "$piece_leftdarkwoodroof26triangular_description";
-            leftdarkwoodroof26triangular.PieceTable = "Hammer";
-            leftdarkwoodroof26triangular.Category = "Building";
-            leftdarkwoodroof26triangular.CraftingStation = "piece_workbench";
+            leftdarkwoodroof26triangular.PieceTable = Hammer;
+            leftdarkwoodroof26triangular.Category = CategoryBuildingWorkbench;
+            leftdarkwoodroof26triangular.CraftingStation = Workbench;
             leftdarkwoodroof26triangular.AllowedInDungeons = false;
             leftdarkwoodroof26triangular.Requirements = new RequirementConfig[]
             {
@@ -314,9 +320,9 @@ namespace MissingPieces
             PieceConfig rightdarkwoodroof45triangular = new PieceConfig();
             rightdarkwoodroof45triangular.Name = "$piece_rightdarkwoodroof45triangular";
             rightdarkwoodroof45triangular.Description = "$piece_rightdarkwoodroof45triangular_description";
-            rightdarkwoodroof45triangular.PieceTable = "Hammer";
-            rightdarkwoodroof45triangular.Category = "Building";
-            rightdarkwoodroof45triangular.CraftingStation = "piece_workbench";
+            rightdarkwoodroof45triangular.PieceTable = Hammer;
+            rightdarkwoodroof45triangular.Category = CategoryBuildingWorkbench;
+            rightdarkwoodroof45triangular.CraftingStation = Workbench;
             rightdarkwoodroof45triangular.AllowedInDungeons = false;
             rightdarkwoodroof45triangular.Requirements = new RequirementConfig[]
             {
@@ -329,9 +335,9 @@ namespace MissingPieces
             PieceConfig leftdarkwoodroof45triangular = new PieceConfig();
             leftdarkwoodroof45triangular.Name = "$piece_leftdarkwoodroof45triangular";
             leftdarkwoodroof45triangular.Description = "$piece_leftdarkwoodroof45triangular_description";
-            leftdarkwoodroof45triangular.PieceTable = "Hammer";
-            leftdarkwoodroof45triangular.Category = "Building";
-            leftdarkwoodroof45triangular.CraftingStation = "piece_workbench";
+            leftdarkwoodroof45triangular.PieceTable = Hammer;
+            leftdarkwoodroof45triangular.Category = CategoryBuildingWorkbench;
+            leftdarkwoodroof45triangular.CraftingStation = Workbench;
             leftdarkwoodroof45triangular.AllowedInDungeons = false;
             leftdarkwoodroof45triangular.Requirements = new RequirementConfig[]
             {
@@ -344,9 +350,9 @@ namespace MissingPieces
             PieceConfig mpwoodendrawer = new PieceConfig();
             mpwoodendrawer.Name = "$piece_mpwoodendrawer";
             mpwoodendrawer.Description = "$piece_mpwoodendrawer_description";
-            mpwoodendrawer.PieceTable = "Hammer";
+            mpwoodendrawer.PieceTable = Hammer;
             mpwoodendrawer.Category = "Furniture";
-            mpwoodendrawer.CraftingStation = "piece_workbench";
+            mpwoodendrawer.CraftingStation = Workbench;
             mpwoodendrawer.AllowedInDungeons = true;
             mpwoodendrawer.Requirements = new RequirementConfig[]
             {

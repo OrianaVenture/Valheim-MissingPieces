@@ -1,3 +1,8 @@
+## 2.2.0
+
+* Update for Ashlands game version 0.218.15. Uses new hammer categories, BuildingWorkbench and BuildingStonecutter.
+* Updated missing translations for French, German, and Russian.
+
 ## 2.1.0
 
 * Adding pieces: wood_wall_half_upper, wood_wall_quarter_upper, roof_wood_2m, roof_darkwood_2m

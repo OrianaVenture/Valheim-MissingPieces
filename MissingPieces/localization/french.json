@@ -1,54 +1,66 @@
 {
-  "piece_stonewall1x1triangular": "Rampe de pierre 1x1",
-  "piece_stonewall1x1triangular_description": "De rien !",
+    "piece_stonewall1x1triangular": "Rampe de pierre 1x1",
+    "piece_stonewall1x1triangular_description": "De rien !",
 
-  "piece_stonewall2x1triangular": "Rampe de pierre 2x1",
-  "piece_stonewall2x1triangular_description": "Devrait être pratique !",
+    "piece_stonewall2x1triangular": "Rampe de pierre 2x1",
+    "piece_stonewall2x1triangular_description": "Devrait être pratique !",
 
-  "piece_stonestaircorner": "Angle d'escalier en pierre",
-  "piece_stonestaircorner_description": "Comment avons-nous pu passer à côté de ceci ?",
+    "piece_stonestaircorner": "Angle d'escalier en pierre",
+    "piece_stonestaircorner_description": "Comment avons-nous pu passer à côté de ceci ?",
 
-  "piece_woodfloortriangular1": "Plancher triangulaire en bois (1)",
-  "piece_woodfloortriangular1_description": "L'autre est différent, promis !",
+    "piece_woodfloortriangular1": "Plancher triangulaire en bois (1)",
+    "piece_woodfloortriangular1_description": "L'autre est différent, promis !",
 
-  "piece_woodfloortriangular2": "Triangular Wood Floor (2)",
-  "piece_woodfloortriangular2_description": "Je vous l'avais dit.",
+    "piece_woodfloortriangular2": "Triangular Wood Floor (2)",
+    "piece_woodfloortriangular2_description": "Je vous l'avais dit.",
 
-  "piece_finerstepladder": "Échelle de bois encore plus précieux",
-  "piece_finerstepladder_description": "Une échelle qui marche !",
+    "piece_finerstepladder": "Échelle de bois encore plus précieux",
+    "piece_finerstepladder_description": "Une échelle qui marche !",
 
-  "piece_woodstair1m": "Échelle de bois étroite",
-  "piece_woodstair1m_description": "Êtes-vous au régime ?",
+    "piece_woodstair1m": "Échelle de bois étroite",
+    "piece_woodstair1m_description": "Êtes-vous au régime ?",
 
-  "piece_rightwoodroof26triangular": "Toit de bois triangulaire droit (26°)",
-  "piece_rightwoodroof26triangular_description": "b o i s",
+    "piece_rightwoodroof26triangular": "Toit de bois triangulaire droit (26°)",
+    "piece_rightwoodroof26triangular_description": "b o i s",
 
-  "piece_leftwoodroof26triangular": "Toit de bois triangulaire gauche (26°)",
-  "piece_leftwoodroof26triangular_description": "boa",
+    "piece_leftwoodroof26triangular": "Toit de bois triangulaire gauche (26°)",
+    "piece_leftwoodroof26triangular_description": "boa",
 
-  "piece_rightwoodroof45triangular": "Toit de bois triangulaire droit (45°)",
-  "piece_rightwoodroof45triangular_description": "boit",
+    "piece_rightwoodroof45triangular": "Toit de bois triangulaire droit (45°)",
+    "piece_rightwoodroof45triangular_description": "boit",
 
-  "piece_leftwoodroof45triangular": "Toit de bois triangulaire gauche (45°)",
-  "piece_leftwoodroof45triangular_description": "bouah",
+    "piece_leftwoodroof45triangular": "Toit de bois triangulaire gauche (45°)",
+    "piece_leftwoodroof45triangular_description": "bouah",
 
-  "piece_rightdarkwoodroof26triangular": "Toit de bois sombre triangulaire droit (26°)",
-  "piece_rightdarkwoodroof26triangular_description": "C'est celui-ci",
+    "piece_rightdarkwoodroof26triangular": "Toit de bois sombre triangulaire droit (26°)",
+    "piece_rightdarkwoodroof26triangular_description": "C'est celui-ci.",
 
-  "piece_leftdarkwoodroof26triangular": "Toit de bois triangulaire gauche (26°)",
-  "piece_leftdarkwoodroof26triangular_description": "Ou peut-être est-ce celui-ci",
+    "piece_leftdarkwoodroof26triangular": "Toit de bois triangulaire gauche (26°)",
+    "piece_leftdarkwoodroof26triangular_description": "Ou peut-être est-ce celui-ci.",
 
-  "piece_rightdarkwoodroof45triangular": "Toit de bois triangulaire droit (45°)",
-  "piece_rightdarkwoodroof45triangular_description": "Est-ce que c'est le bon ?",
+    "piece_rightdarkwoodroof45triangular": "Toit de bois triangulaire droit (45°)",
+    "piece_rightdarkwoodroof45triangular_description": "Est-ce que c'est le bon ?",
 
-  "piece_leftdarkwoodroof45triangular": "Toit de bois triangulaire gauche (45°)",
-  "piece_leftdarkwoodroof45triangular_description": "Hm pas celui-ci non plus.",
+    "piece_leftdarkwoodroof45triangular": "Toit de bois triangulaire gauche (45°)",
+    "piece_leftdarkwoodroof45triangular_description": "Hm pas celui-ci non plus.",
 
-  "piece_mpwoodendrawer": "Compartiment de stockage",
-  "piece_mpwoodendrawer_description": "Un tiroir. En bois. Ouais.",
-  "piece_drawer_open": "Ouvrir",
-  "piece_drawer_edit": "Éditer",
+    "piece_mpwoodendrawer": "Compartiment de stockage",
+    "piece_mpwoodendrawer_description": "Un tiroir. En bois. Ouais.",
+    "piece_drawer_open": "Ouvrir",
+    "piece_drawer_edit": "Éditer",
 
-  "piece_stonefloor1x1": "Sol de pierre 1x1",
-  "piece_stonefloor1x1_description": "Mètre par mètre ou, en unité du pays de la liberté, une largeur de frigo à la fois !"
+    "piece_stonefloor1x1": "Sol de pierre 1x1",
+    "piece_stonefloor1x1_description": "Mètre par mètre ou, en unité du pays de la liberté, une largeur de frigo à la fois !",
+
+    "piece_roofdarkwood2m": "Shingle Roof 2m",
+    "piece_roofdarkwood2m_description": "C'est aussi très plat.",
+
+    "piece_roofwood2m": "Thatch Roof 2m",
+    "piece_roofwood2m_description": "C'est vraiment plat.",
+
+    "piece_woodwallhalfupper": "Wood Wall Half Upper",
+    "piece_woodwallhalfupper_description": "Un parfait opposé.",
+
+    "piece_woodwallquarterupper": "Wood Wall Quarter Upper",
+    "piece_woodwallquarterupper_description": "Un petit opposé parfait."
 }

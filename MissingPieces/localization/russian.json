@@ -9,13 +9,13 @@
     "piece_stonestaircorner_description": "Почему его раньше не было?",
 
     "piece_woodfloortriangular1": "Треугольный деревянный пол (1)",
-    "piece_woodfloortriangular1_description": "Он другой, точно-точно",
+    "piece_woodfloortriangular1_description": "Он другой, точно-точно!",
 
     "piece_woodfloortriangular2": "Треугольный деревянный пол (2)",
-    "piece_woodfloortriangular2_description": "Ну я же говорил",
+    "piece_woodfloortriangular2_description": "Ну я же говорил.",
 
     "piece_finerstepladder": "Тонкая деревянная лестница",
-    "piece_finerstepladder_description": "Лучше и тоньше",
+    "piece_finerstepladder_description": "Лучше и тоньше.",
 
     "piece_woodstair1m": "Узкая деревянная лестница",
     "piece_woodstair1m_description": "Ты на диете?",
@@ -36,13 +36,13 @@
     "piece_rightdarkwoodroof26triangular_description": "Точно эта.",
 
     "piece_leftdarkwoodroof26triangular": "Левая треугольная шиферная крыша 26°",
-    "piece_leftdarkwoodroof26triangular_description": "Вроде эта",
+    "piece_leftdarkwoodroof26triangular_description": "Вроде эта.",
 
     "piece_rightdarkwoodroof45triangular": "Правая треугольная шиферная крыша 45°",
     "piece_rightdarkwoodroof45triangular_description": "Может эта?",
 
     "piece_leftdarkwoodroof45triangular": "Левая треугольная шиферная крыша 45°",
-    "piece_leftdarkwoodroof45triangular_description": "Нет, не эта",
+    "piece_leftdarkwoodroof45triangular_description": "Нет, не эта.",
 
     "piece_mpwoodendrawer": "Деревянный ящик",
     "piece_mpwoodendrawer_description": "Это ящик, сделан из дерева. Вот.",
@@ -50,5 +50,17 @@
     "piece_drawer_edit": "Изменить",
 
     "piece_stonefloor1x1": "Каменный пол 1x1",
-    "piece_stonefloor1x1_description": "Метр на метр или, в самых свободных единицах измерения, размером с холодильник"
+    "piece_stonefloor1x1_description": "Метр на метр или, в самых свободных единицах измерения, размером с холодильник.",
+
+    "piece_roofdarkwood2m": "Шиферная крыша (горизонтальная)",
+    "piece_roofdarkwood2m_description": "Тоже плоская.",
+
+    "piece_roofwood2m": "Соломенная крыша (горизонтальная)",
+    "piece_roofwood2m_description": "Она плоская.",
+
+    "piece_woodwallhalfupper": "Деревянная стена (половина)",
+    "piece_woodwallhalfupper_description": "Точно такая же, только меньше и другая.",
+
+    "piece_woodwallquarterupper": "Деревянная стена 1х1",
+    "piece_woodwallquarterupper_description": "Точно такая же, только меньше и другая."
 }
