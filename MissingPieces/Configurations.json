@@ -1,0 +1,415 @@
+[
+    {
+        "Prefab": "wood_wall_half_upper",
+        "Config": {
+            "Name": "$piece_woodwallhalfupper",
+            "Description": "$piece_woodwallhalfupper_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "wood_wall_quarter_upper",
+        "Config": {
+            "Name": "$piece_woodwallquarterupper",
+            "Description": "$piece_woodwallquarterupper_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "stone_wall_1x1_triangular",
+        "Config": {
+            "Name": "$piece_stonewall1x1triangular",
+            "Description": "$piece_stonewall1x1triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingStonecutter",
+            "CraftingStation": "piece_stonecutter",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Stone",
+                    "Amount": 2,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "stone_wall_2x1_triangular",
+        "Config": {
+            "Name": "$piece_stonewall2x1triangular",
+            "Description": "$piece_stonewall2x1triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingStonecutter",
+            "CraftingStation": "piece_stonecutter",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Stone",
+                    "Amount": 2,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "stone_stair_corner",
+        "Config": {
+            "Name": "$piece_stonestaircorner",
+            "Description": "$piece_stonestaircorner_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingStonecutter",
+            "CraftingStation": "piece_stonecutter",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Stone",
+                    "Amount": 6,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "stone_floor_1x1",
+        "Config": {
+            "Name": "$piece_stonefloor1x1",
+            "Description": "$piece_stonefloor1x1_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingStonecutter",
+            "CraftingStation": "piece_stonecutter",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Stone",
+                    "Amount": 2,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "wood_floor_triangular1",
+        "Config": {
+            "Name": "$piece_woodfloortriangular1",
+            "Description": "$piece_woodfloortriangular1_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "wood_floor_triangular2",
+        "Config": {
+            "Name": "$piece_woodfloortriangular2",
+            "Description": "$piece_woodfloortriangular2_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "wood_finerstepladder",
+        "Config": {
+            "Name": "$piece_finerstepladder",
+            "Description": "$piece_finerstepladder_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 3,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "wood_stair_1m",
+        "Config": {
+            "Name": "$piece_woodstair1m",
+            "Description": "$piece_woodstair1m_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_wood_2m",
+        "Config": {
+            "Name": "$piece_roofwood2m",
+            "Description": "$piece_roofwood2m_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 2,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_wood_26_right",
+        "Config": {
+            "Name": "$piece_rightwoodroof26triangular",
+            "Description": "$piece_rightwoodroof26triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_wood_26_left",
+        "Config": {
+            "Name": "$piece_leftwoodroof26triangular",
+            "Description": "$piece_leftwoodroof26triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_wood_45_right",
+        "Config": {
+            "Name": "$piece_rightwoodroof45triangular",
+            "Description": "$piece_rightwoodroof45triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_wood_45_left",
+        "Config": {
+            "Name": "$piece_leftwoodroof45triangular",
+            "Description": "$piece_leftwoodroof45triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_darkwood_2m",
+        "Config": {
+            "Name": "$piece_roofdarkwood2m",
+            "Description": "$piece_roofdarkwood2m_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 2,
+                    "Recover": true
+                },
+                {
+                    "Item": "Tar",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_darkwood_26_right",
+        "Config": {
+            "Name": "$piece_rightdarkwoodroof26triangular",
+            "Description": "$piece_rightdarkwoodroof26triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                },
+                {
+                    "Item": "Tar",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_darkwood_26_left",
+        "Config": {
+            "Name": "$piece_leftdarkwoodroof26triangular",
+            "Description": "$piece_leftdarkwoodroof26triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                },
+                {
+                    "Item": "Tar",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_darkwood_45_right",
+        "Config": {
+            "Name": "$piece_rightdarkwoodroof45triangular",
+            "Description": "$piece_rightdarkwoodroof45triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                },
+                {
+                    "Item": "Tar",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "roof_darkwood_45_left",
+        "Config": {
+            "Name": "$piece_leftdarkwoodroof45triangular",
+            "Description": "$piece_leftdarkwoodroof45triangular_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "Wood",
+                    "Amount": 1,
+                    "Recover": true
+                },
+                {
+                    "Item": "Tar",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    },
+    {
+        "Prefab": "piece_chest_wooden_drawer",
+        "Config": {
+            "Name": "$piece_mpwoodendrawer",
+            "Description": "$piece_mpwoodendrawer_description",
+            "PieceTable": "Hammer",
+            "Category": "BuildingWorkbench",
+            "CraftingStation": "piece_workbench",
+            "AllowedInDungeons": false,
+            "Requirements": [
+                {
+                    "Item": "FineWood",
+                    "Amount": 10,
+                    "Recover": true
+                },
+                {
+                    "Item": "Iron",
+                    "Amount": 2,
+                    "Recover": true
+                },
+                {
+                    "Item": "Coal",
+                    "Amount": 1,
+                    "Recover": true
+                }
+            ]
+        }
+    }
+]
