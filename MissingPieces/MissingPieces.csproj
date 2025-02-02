@@ -134,6 +134,7 @@
     <EmbeddedResource Include="Localization\Polish.json" />
     <EmbeddedResource Include="Localization\Korean.json" />
     <EmbeddedResource Include="Localization\Russian.json" />
+    <EmbeddedResource Include="Localization\Ukrainian.json" />
     <EmbeddedResource Include="Configurations.json" />
   </ItemGroup>
   <ItemGroup>

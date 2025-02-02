@@ -1,3 +1,9 @@
+## 2.2.1
+
+* Adding Ukrainian translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
+* Drawer text will resize with longer inputs.
+* Stone pieces now have fire resistance.
+
 ## 2.2.0
 
 * Update for Ashlands game version 0.218.15. Uses new hammer categories, BuildingWorkbench and BuildingStonecutter.
@@ -10,7 +16,7 @@
 
 ## 2.0.8
 
-* Adding Russian translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
+* Adding Russian translations
 
 ## 2.0.7
 

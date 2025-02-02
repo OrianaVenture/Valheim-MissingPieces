@@ -1,0 +1,66 @@
+{
+    "piece_stonewall1x1triangular": "Кам'яна рампа 1x1",
+    "piece_stonewall1x1triangular_description": "Будь-ласка!",
+
+    "piece_stonewall2x1triangular": "Кам'яна рампа 2x1",
+    "piece_stonewall2x1triangular_description": "Повинно знадобитись!",
+
+    "piece_stonestaircorner": "Кам'яні сходи кутові",
+    "piece_stonestaircorner_description": "Чому цього досі не було?",
+
+    "piece_woodfloortriangular1": "Трикутна дерев'яна підлога (1)",
+    "piece_woodfloortriangular1_description": "наступна інша, чесно!",
+
+    "piece_woodfloortriangular2": "Трикутна дерев'яна підлога (2)",
+    "piece_woodfloortriangular2_description": "Бачиш? Я ж казав.",
+
+    "piece_finerstepladder": "Тонка дерев'яна драбина",
+    "piece_finerstepladder_description": "О ні. Звідна драбина, що ти робиш?",
+
+    "piece_woodstair1m": "Вузькі дерев'яні сходи",
+    "piece_woodstair1m_description": "Чи ти на дієті?",
+
+    "piece_rightwoodroof26triangular": "Трикутний солом'яний дах правий під 26°",
+    "piece_rightwoodroof26triangular_description": "Д е р р е в о",
+
+    "piece_leftwoodroof26triangular": "Трикутний солом'яний дах лівий під 26°",
+    "piece_leftwoodroof26triangular_description": "Тхерево",
+
+    "piece_rightwoodroof45triangular": "Трикутний солом'яний дах правий під 45°",
+    "piece_rightwoodroof45triangular_description": "Дерев'яно",
+
+    "piece_leftwoodroof45triangular": "Трикутний солом'яний дах лівий під 45°",
+    "piece_leftwoodroof45triangular_description": "Др'єв",
+
+    "piece_rightdarkwoodroof26triangular": "Трикутний гонтовий дах правий під 26°",
+    "piece_rightdarkwoodroof26triangular_description": "ПРАВильний.",
+
+    "piece_leftdarkwoodroof26triangular": "Трикутний гонтовий дах лівий під 26°",
+    "piece_leftdarkwoodroof26triangular_description": "Можливо це саме він.",
+
+    "piece_rightdarkwoodroof45triangular": "Трикутний гонтовий дах правий під 45°",
+    "piece_rightdarkwoodroof45triangular_description": "Чи цей ПРАВильний?",
+
+    "piece_leftdarkwoodroof45triangular": "Трикутний гонтовий дах лівий під 45°",
+    "piece_leftdarkwoodroof45triangular_description": "Ні, і не цей.",
+
+    "piece_mpwoodendrawer": "Дерев'яна скриня",
+    "piece_mpwoodendrawer_description": "Це скриня, зроблена з дерева. Ось.",
+    "piece_drawer_open": "Відкрити",
+    "piece_drawer_edit": "Змінити",
+
+    "piece_stonefloor1x1": "Кам'яна підлога 1x1",
+    "piece_stonefloor1x1_description": "Метр на метр або, у вілних вімірах, розмір холодильника.",
+
+    "piece_roofdarkwood2m": "Гонтовий дах 2м",
+    "piece_roofdarkwood2m_description": "Він також дуже плоский.",
+
+    "piece_roofwood2m": "Солом'яний дах 2м",
+    "piece_roofwood2m_description": "Дуже плоский.",
+
+    "piece_woodwallhalfupper": "Дерев'яна півстіна, верхня",
+    "piece_woodwallhalfupper_description": "Повна протилежність.",
+
+    "piece_woodwallquarterupper": "Дерев'яна чвертьстіна, верхня",
+    "piece_woodwallquarterupper_description": "Меньша повна протилежність."
+}

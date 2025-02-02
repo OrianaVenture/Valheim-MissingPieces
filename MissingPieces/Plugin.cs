@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Reflection;
 using BepInEx;
 using Jotunn.Configs;
@@ -58,13 +57,15 @@ namespace MissingPieces
             localizedJson = AssetUtils.LoadTextFromResources("Localization.Russian.json", Assembly.GetExecutingAssembly());
             Localization.AddJsonFile("Russian", localizedJson);
 
+            localizedJson = AssetUtils.LoadTextFromResources("Localization.Ukrainian.json", Assembly.GetExecutingAssembly());
+            Localization.AddJsonFile("Ukrainian", localizedJson);
+
             // tell that the mod injection worked
             Jotunn.Logger.LogInfo("Missing Pieces landed!");
         }
 
         private List<PieceConfiguration> LoadJsons()
         {
-            // TODO
             var json = AssetUtils.LoadTextFromResources("Configurations.json", Assembly.GetExecutingAssembly());
             try
             {

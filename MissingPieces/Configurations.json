@@ -390,7 +390,7 @@
             "Name": "$piece_mpwoodendrawer",
             "Description": "$piece_mpwoodendrawer_description",
             "PieceTable": "Hammer",
-            "Category": "BuildingWorkbench",
+            "Category": "Furniture",
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
