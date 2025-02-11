@@ -1,3 +1,8 @@
+## 2.2.2
+
+* Added missing effects for wooden drawer.
+* Changed Newtonsoft Json.NET embedded package to an external dependency - PLEASE INSTALL THE NEW DEPENDENCY
+
 ## 2.2.1
 
 * Adding Ukrainian translations (if you would like translations added please see the [open issue on github](https://github.com/OrianaVenture/Valheim-MissingPieces/issues/1))
