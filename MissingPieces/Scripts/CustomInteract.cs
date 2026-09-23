@@ -55,4 +55,9 @@ public class CustomInteract : MonoBehaviour, Hoverable, Interactable
     {
         return false;
     }
+
+    public float GetHoverOffset()
+    {
+        return 0f;
+    }
 }

@@ -6,6 +6,7 @@
             "Description": "$piece_woodwallhalfupper_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Wall"],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -24,6 +25,7 @@
             "Description": "$piece_woodwallquarterupper_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Wall"],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -42,6 +44,7 @@
             "Description": "$piece_stonewall1x1triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingStonecutter",
+            "Usage": [ "Building", "Wall"],
             "CraftingStation": "piece_stonecutter",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -60,6 +63,7 @@
             "Description": "$piece_stonewall2x1triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingStonecutter",
+            "Usage": [ "Building", "Wall"],
             "CraftingStation": "piece_stonecutter",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -78,6 +82,7 @@
             "Description": "$piece_stonestaircorner_description",
             "PieceTable": "Hammer",
             "Category": "BuildingStonecutter",
+            "Usage": [ "Building", "Stairs" ],
             "CraftingStation": "piece_stonecutter",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -96,6 +101,7 @@
             "Description": "$piece_stonefloor1x1_description",
             "PieceTable": "Hammer",
             "Category": "BuildingStonecutter",
+            "Usage": [ "Building", "Floor" ],
             "CraftingStation": "piece_stonecutter",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -114,6 +120,7 @@
             "Description": "$piece_woodfloortriangular1_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Floor" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -132,6 +139,7 @@
             "Description": "$piece_woodfloortriangular2_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Floor" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -150,6 +158,7 @@
             "Description": "$piece_finerstepladder_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Stairs" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -168,6 +177,7 @@
             "Description": "$piece_woodstair1m_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Stairs" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -186,6 +196,7 @@
             "Description": "$piece_roofwood2m_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -204,6 +215,7 @@
             "Description": "$piece_rightwoodroof26triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -222,6 +234,7 @@
             "Description": "$piece_leftwoodroof26triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -240,6 +253,7 @@
             "Description": "$piece_rightwoodroof45triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -258,6 +272,7 @@
             "Description": "$piece_leftwoodroof45triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -276,6 +291,7 @@
             "Description": "$piece_roofdarkwood2m_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -299,6 +315,7 @@
             "Description": "$piece_rightdarkwoodroof26triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -322,6 +339,7 @@
             "Description": "$piece_leftdarkwoodroof26triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -345,6 +363,7 @@
             "Description": "$piece_rightdarkwoodroof45triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -368,6 +387,7 @@
             "Description": "$piece_leftdarkwoodroof45triangular_description",
             "PieceTable": "Hammer",
             "Category": "BuildingWorkbench",
+            "Usage": [ "Building", "Roof" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [
@@ -391,6 +411,7 @@
             "Description": "$piece_mpwoodendrawer_description",
             "PieceTable": "Hammer",
             "Category": "Furniture",
+            "Usage": [ "Storage", "Furniture" ],
             "CraftingStation": "piece_workbench",
             "AllowedInDungeons": false,
             "Requirements": [

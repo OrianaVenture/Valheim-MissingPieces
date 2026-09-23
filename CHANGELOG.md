@@ -1,3 +1,15 @@
+## 2.3.2
+
+* Improved sign drawer mocking, signs should now support typing all characters that vanilla signs can support.
+
+## 2.3.1
+
+* Added build usage tags to all pieces.
+
+## 2.3.0
+
+* Release for game version 1.0.7
+
 ## 2.2.3
 
 * Update for hover text display changes from vanilla for chests.

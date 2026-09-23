@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection;
-using BepInEx;
+﻿using BepInEx;
+using HarmonyLib;
 using Jotunn.Configs;
 using Jotunn.Entities;
 using Jotunn.Managers;
 using Jotunn.Utils;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using TMPro;
 using UnityEngine;
 
 namespace MissingPieces
@@ -18,9 +20,10 @@ namespace MissingPieces
     {
         public const string PluginGUID = "com.Bento.MissingPieces";
         public const string PluginName = "MissingPieces";
-        public const string PluginVersion = "2.2.3";
+        public const string PluginVersion = "2.3.2";
 
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
+        private readonly Harmony HarmonyInstance = new(PluginGUID);
 
         [Serializable]
         public struct PieceConfiguration
@@ -62,6 +65,7 @@ namespace MissingPieces
 
             // tell that the mod injection worked
             Jotunn.Logger.LogInfo("Missing Pieces landed!");
+            HarmonyInstance.PatchAll();
         }
 
         private List<PieceConfiguration> LoadJsons()
@@ -89,7 +93,25 @@ namespace MissingPieces
             foreach (PieceConfiguration piece in pieces)
             {
                 GameObject go = bundle.LoadAsset<GameObject>(piece.Prefab);
-                PieceManager.Instance.AddPiece(new CustomPiece(go, true, piece.Config));
+                string name = go.name;
+                go.name = go.name + "_old";
+                GameObject clone = PrefabManager.Instance.CreateClonedPrefab(name, go);
+                PieceManager.Instance.AddPiece(new CustomPiece(clone, true, piece.Config));
+            }
+        }
+
+        /// <summary>
+        /// Fix up references due to mocking sign canvas.
+        /// </summary>
+        [HarmonyPatch(typeof(Sign), nameof(Sign.Awake))]
+        public static class Patch_Sign_Awake
+        {
+            private static void Prefix(Sign __instance)
+            {
+                if (__instance.m_textWidget == null)
+                {
+                    __instance.m_textWidget = __instance.GetComponentInChildren<TextMeshProUGUI>();
+                }
             }
         }
     }
